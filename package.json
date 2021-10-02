@@ -1,9 +1,13 @@
 {
   "name": "week-3-part-2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "first assignment for COMP 229",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktqueen169/school-webapp.git"
+  },
+  "author": "Katherine Bowie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktqueen169/school-webapp/issues"
+  },
+  "homepage": "https://github.com/ktqueen169/school-webapp#readme"
 }
