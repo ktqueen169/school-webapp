@@ -9,6 +9,32 @@
   </div>
 </main>
 
+<% if(title == "Home"){ %>
+<%-include partials/home_details.ejs %>
+<% } %>
+
+
+<% if(title == "About"){ %>
+<%-include partials/about_details.ejs %>
+<% } %>
+
+
+<% if(title == "Projects"){ %>
+<%-include partials/project_details.ejs %>
+<% } %>
+
+
+<% if(title == "Services"){ %>
+<%-include partials/service_details.ejs %>
+//include home partial
+<% } %>
+
+
+<% if(title == "Contact"){ %>
+<%-include partials/contact_details.ejs %>
+//include home partial
+<% } %>
+
 <%- include partials/bottom_nav.ejs %>
 
 <%- include partials/foot.ejs %>
