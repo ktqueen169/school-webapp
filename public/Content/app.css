@@ -1,1 +1,21 @@
-/* Custom css goes here */
+/* 
+app.css
+Author: Katherine Bowie
+Student #: 301174093
+Date: 9/30/2021
+*/
+
+.kblogo {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
