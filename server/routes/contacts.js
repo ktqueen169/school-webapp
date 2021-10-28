@@ -15,7 +15,7 @@ router.get('/', (req, res, next) => {
         else {
             //console.log(ContactsList);
 
-            res.render('contacts', {title: 'Contact List', ContactsList: ContactsList})
+            res.render('contacts', {title: 'Contacts', ContactsList: ContactsList})
         }
     });
 });
