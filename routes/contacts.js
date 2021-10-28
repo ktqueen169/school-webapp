@@ -13,7 +13,9 @@ router.get('/', (req, res, next) => {
             return console.error(err);
         }
         else {
-            console.log(ContactsList);
+            //console.log(ContactsList);
+
+            res.render('contacts', {title: 'Contact List', ContactsList: ContactsList})
         }
     });
 });
